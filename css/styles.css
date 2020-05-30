@@ -1,0 +1,624 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+
+/*
+* @media only screen and (min-width: 480px) {}
+* @media only screen and (min-width: 600px) {}
+* @media only screen and (min-width: 992px) {}
+* @media only screen and (min-width: 1382px) {}
+*/
+
+body {
+    padding-top: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+h5 {
+    color: #666;
+    font-weight: bold;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+.txt-gold {
+    color: #87714f;
+    font-weight: 800;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+a.grey,
+a.grey:visited,
+.txt-grey {
+    color: #666;
+}
+
+a.grey:hover {
+    color: #996633;
+    text-decoration: none;
+}
+
+a.redes-sociais,
+a.redes-sociais-footer {
+    margin: 0px 5px;
+}
+
+a.redes-sociais,
+a.redes-sociais:visited {
+    color: #666;
+}
+
+@media (min-width: 576px) {
+    a.redes-sociais {
+        font-size: 2em;
+    }
+}
+
+a.redes-sociais-footer,
+a.redes-sociais-footer:visited {
+    color: #999;
+    margin-top: 15px;
+}
+
+a.redes-sociais:hover,
+a.redes-sociais-footer:hover {
+    color: #ccc;
+}
+
+.degrade-title {
+    background: -webkit-linear-gradient(#a5957b, #87714f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.p-t-20 {
+    padding-top: 20px!important;
+    color: #887348;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+    ;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.text-make {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 10px 0 0 20px;
+    line-height: 15px;
+}
+
+.text-make span {
+    padding-left: 20px;
+}
+
+.links-home {
+    margin: 40px 0 0 15px;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+    .desk {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) {
+    .no-desktop {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .no-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .text-make {
+        font-size: 42px;
+        font-weight: bolder;
+        margin: 35px 0 0 50px;
+        line-height: 40px;
+    }
+    .links-home {
+        margin: 55px 0 0 80px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-make {
+        font-size: 60px;
+        font-weight: bolder;
+        margin: 50px 0 0 50px;
+        line-height: 55px;
+    }
+    .text-make span {
+        padding-left: 35px;
+    }
+    .links-home {
+        margin: 130px 0 0 80px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .text-make {
+        font-size: 65px;
+        font-weight: bolder;
+        margin: 90px 0 0 50px;
+        line-height: 65px;
+    }
+    .text-make span {
+        padding-left: 35px;
+    }
+    .links-home {
+        margin: 210px 0 0 80px;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .text-make {
+        font-size: 80px;
+        font-weight: bolder;
+        margin: 90px 0 0 0;
+        line-height: 80px;
+    }
+    .text-make span {
+        padding-left: 35px;
+    }
+    .links-home {
+        margin: 380px 0 0 80px;
+        font-size: 24px;
+    }
+}
+
+.description-home,
+.contact-home {
+    color: #fff;
+    padding: 60px 0;
+    line-height: 30px;
+}
+
+.contact-home h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.8);
+    /* IE 9 */
+    -webkit-transform: scale(1.8);
+    /* Chrome, Safari, Opera */
+    transform: scale(1.8);
+}
+
+.box-fields-contact-home {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.input-contact-home {
+    border: none;
+}
+
+.bg-icon-contact {
+    background: none;
+    border: none;
+}
+
+.base-estojo {
+    position: relative;
+}
+
+.img-estojo {
+    top: -230px;
+    left: -100px;
+    position: absolute;
+    width: 350px;
+}
+
+@media (max-width: 2650px) {
+    .img-estojo {
+        top: -220px;
+        left: -230px;
+        position: absolute;
+        width: 350px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .img-estojo {
+        top: -150px;
+        left: -50px;
+        position: absolute;
+        width: 280px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-estojo {
+        display: none;
+    }
+}
+
+.footer-content {
+    background-image: linear-gradient(#fff, #f1f1f1);
+    padding: 50px 0 10px 0;
+    color: #999;
+}
+
+.copyright {
+    color: #999;
+    margin: 20px 0;
+}
+
+.bg-dark {
+    background-color: transparent!important;
+    background-image: linear-gradient(#434445, #58595b);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.base-content-banners {
+    position: relative;
+}
+
+
+/* doutores */
+
+.btn-restrict {
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+.text-doutores {
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    color: #666;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.logo-aligners-doutores {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+}
+
+.logo-aligners-doutores img {
+    width: 230px;
+}
+
+@media (max-width: 425px) {
+    .btn-restrict {
+        right: 0px;
+    }
+    .text-doutores {
+        top: 220px;
+        font-size: 18px;
+        right: 0px;
+        color: #666;
+        width: 150px;
+    }
+    .logo-aligners-doutores {
+        top: 330px;
+        right: 0px;
+    }
+    .logo-aligners-doutores img {
+        width: 220px;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-doutores {
+        font-size: 22px;
+    }
+    .logo-aligners-doutores img {
+        width: 280px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text-doutores {
+        top: 320px;
+        font-size: 28px;
+    }
+    .logo-aligners-doutores {
+        top: 470px;
+    }
+    .logo-aligners-doutores img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .girl-doutores {
+        display: none;
+    }
+}
+
+
+/* /doutores */
+
+.li-historia,
+.li-solicitar {
+    padding-left: 0px;
+    padding-right: 30px;
+}
+
+.text-credenciamento {
+    position: absolute;
+    top: 250px;
+    right: 0px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.text-credenciamento span {
+    color: #77633f;
+}
+
+.btn-credenciamento {
+    position: absolute;
+    top: 420px;
+    right: 0px;
+}
+
+@media (max-width: 425px) {
+    .text-credenciamento {
+        position: absolute;
+        top: 200px;
+        left: 0px;
+        color: #58595b;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 200px;
+    }
+    .text-credenciamento span {
+        color: #77633f;
+    }
+    .btn-credenciamento {
+        position: absolute;
+        top: 420px;
+        right: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-credenciamento {
+        left: 0px;
+        color: #58595b;
+        font-size: 18px;
+    }
+    .btn-credenciamento {
+        left: 0px;
+        width: 320px;
+        top: 380px;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-credenciamento {
+        left: 0px;
+        color: #58595b;
+        font-size: 24px;
+    }
+    .btn-credenciamento {
+        left: 0px;
+    }
+}
+
+.content-credenciamento span {
+    color: #77633f;
+}
+
+@media (min-width: 426px) {
+    .aligner-trans-cred-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .aligner-trans-cred {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .aligner-trans-cred {
+        position: absolute;
+        width: 180px;
+        top: 20px;
+        left: 30px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .aligner-trans-cred {
+        position: absolute;
+        width: 280px;
+        top: 0px;
+        left: 60px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .aligner-trans-cred {
+        position: absolute;
+        width: 350px;
+        top: 0px;
+        left: 450px;
+    }
+}
+
+.box-fields-credenciamento {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.input-credenciamento {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px!important;
+    padding: 20px!important;
+}
+
+.input-credenciamento-select {
+    color: #495057!important;
+    height: 41px!important;
+    border: 1px solid #f1f1f1;
+}
+
+.bg-content-solicitar,
+.bg-content-pacientes {
+    background-image: linear-gradient(#fff, #f1f1f1);
+}
+
+.bg-logo {
+    background-image: url('../images/bg-logo.png');
+    background-repeat: no-repeat;
+    background-position: 100px 50px;
+}
+
+.box-doutores-credenciados {
+    background-image: linear-gradient(#fff, #f1f1f1);
+    padding: 10px 10px 20px 10px;
+}
+
+.info-doutores-credenciados {
+    font-size: 12px;
+    line-height: 15px;
+    color: #58595b;
+}
+
+.text-encontre {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    color: #666;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.text-encontre span {
+    color: #77633f;
+}
+
+@media (max-width: 1024px) {
+    .text-encontre {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-encontre {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .text-encontre {
+        font-size: 20px;
+        top: 400px;
+    }
+}
+
+.text-encontre-content {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.text-encontre-content span {
+    color: #77633f;
+}
+
+.select-encontre {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 15px!important;
+    padding: 10px!important;
+    border-radius: 8px;
+    width: 100%;
+}

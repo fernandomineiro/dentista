@@ -1,0 +1,305 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+ body {
+    padding-top: 56px;
+}
+
+.carousel-item-home {
+    height: 200px;
+    min-height: 200px;
+    background: no-repeat bottom scroll;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+@media (min-width: 576px) {
+    .carousel-item-home {
+        height: 400px;
+        min-height: 400px;
+        background: no-repeat bottom scroll;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    .carousel-item-home {
+        height: 600px;
+        min-height: 600px;
+        background: no-repeat bottom scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1440px) {
+    .carousel-item-home {
+        height: 800px;
+        min-height: 800px;
+        background: no-repeat bottom scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 2560px) {
+    .carousel-item-home {
+        height: 1080px;
+        min-height: 1080px;
+        background: no-repeat bottom scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.carousel-item-doutores {
+    background-image: url('../images/bg-doutores.jpg')!important;
+    height: 650px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 425px) {
+    .carousel-item-doutores {
+        background-image: url('../images/bg-doutores-mobile.jpg')!important;
+        height: 500px;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.carousel-item-nossa-historia {
+    background-image: url('../images/bg-nossa-historia.jpg')!important;
+    height: 650px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .carousel-item-nossa-historia {
+        background-image: url('../images/bg-nossa-historia-mobile.jpg')!important;
+        background-position: left;
+        height: 350px;
+    }
+}
+
+.carousel-item-credenciamento {
+    background-image: url('../images/bg-credenciamento.jpg')!important;
+    height: 710px;
+    min-height: 300px;
+    background: no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 425px) {
+    .carousel-item-credenciamento {
+        background-image: url('../images/bg-credenciamento-mobile.jpg')!important;
+        height: 500px;
+    }
+}
+
+.carousel-item-como-solicitar {
+    background-image: url('../images/bg-como-solicitar.jpg')!important;
+    height: 700px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .carousel-item-como-solicitar {
+        background-image: url('../images/bg-como-solicitar-1024.jpg')!important;
+        height: 550px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item-como-solicitar {
+        background-image: url('../images/bg-como-solicitar-mobile.jpg')!important;
+        height: 450px;
+    }
+}
+
+.carousel-item-beneficios {
+    background-image: url('../images/diferenciais-ortodontistas-2560x750.jpg')!important;
+    height: 750px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 1400px) {
+    .carousel-item-beneficios {
+        background-image: url('../images/diferenciais-ortodontistas-1400x600.jpg')!important;
+        height: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carousel-item-beneficios {
+        background-image: url('../images/diferenciais-ortodontistas-1024x600.jpg')!important;
+        height: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item-beneficios {
+        background-image: url('../images/diferenciais-ortodontistas-768x500.jpg')!important;
+        height: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item-beneficios {
+        background-image: url('../images/diferenciais-ortodontistas-320x400.jpg')!important;
+        height: 400px;
+    }
+}
+
+.carousel-item-pacientes {
+    background-image: url('../images/bg-pacientes.jpg')!important;
+    height: 850px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .carousel-item-pacientes {
+        background-image: url('../images/bg-pacientes-1024.jpg')!important;
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-item-pacientes {
+        background-image: url('../images/bg-pacientes-768.jpg')!important;
+        height: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item-pacientes {
+        background-image: url('../images/bg-pacientes-mobile.jpg')!important;
+        height: 396px;
+    }
+}
+
+.carousel-item-como-funciona {
+    background-image: url('../images/bg-como-funciona.jpg')!important;
+    height: 750px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item-como-funciona {
+        background-image: url('../images/bg-como-funciona-768.jpg')!important;
+        height: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item-como-funciona {
+        background-image: url('../images/bg-como-funciona-mobile.jpg')!important;
+        height: 500px;
+    }
+}
+
+.carousel-item-diferenciais {
+    background-image: url('../images/bg-diferenciais.jpg')!important;
+    height: 750px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item-diferenciais {
+        background-image: url('../images/bg-diferenciais-768.jpg')!important;
+        height: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item-diferenciais {
+        background-image: url('../images/bg-diferenciais-mobile.jpg')!important;
+        height: 500px;
+    }
+}
+
+.carousel-item-encontre {
+    background-image: url('../images/bg-encontre.jpg')!important;
+    height: 750px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .carousel-item-encontre {
+        background-image: url('../images/bg-encontre-1024.jpg')!important;
+        height: 500px;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-item-encontre {
+        background-image: url('../images/bg-encontre-425.jpg')!important;
+        height: 500px;
+    }
+}
